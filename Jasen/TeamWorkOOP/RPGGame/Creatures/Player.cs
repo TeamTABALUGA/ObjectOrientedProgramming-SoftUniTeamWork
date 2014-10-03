@@ -5,10 +5,16 @@ using System.Text;
 
 namespace RPGGame
 {
-    public class Player : Creature
+    public class Player : Creature, ILive
     {
-        public Player(string name, int health)
+        public int DamageResistance;
+        public Player(string name, int health, int damageResistance)
             : base(name, health)
+        {
+            this.DamageResistance = damageResistance;
+        }
+
+        public void CurrentDamageResistance()
         {
             
         }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace RPGGame
 {
-    public abstract class Weapon
+    public abstract class Weapon : IDamage
     {
         public string Name { get; set; }
         public string DamageType { get; set; }

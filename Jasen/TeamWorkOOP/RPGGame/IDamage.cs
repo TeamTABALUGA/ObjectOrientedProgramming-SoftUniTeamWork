@@ -5,10 +5,8 @@ using System.Text;
 
 namespace RPGGame
 {
-    public interface ILive
+    public interface IDamage
     {
-        void CreatureLiveStatus();
         void DamageMade();
-        void CurrentDamageResistance();
     }
 }
