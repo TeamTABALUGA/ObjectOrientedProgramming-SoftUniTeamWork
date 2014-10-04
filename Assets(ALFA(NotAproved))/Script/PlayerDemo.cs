@@ -3,10 +3,11 @@ using System.Collections;
 
 public class PlayerDemo : MonoBehaviour
 {
-    
+
     private Vector3 position;
     private float speed = 10;
     private RaycastHit hit;
+    Vector3 lookTarget;
     void Start()
     {
 
@@ -15,15 +16,18 @@ public class PlayerDemo : MonoBehaviour
     void Update()
     {
         MoveWASD();
-        Vector3 pointCoord = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Quaternion rotate = Quaternion.LookRotation(pointCoord - transform.position);
+        Rotation();
+    }
 
-        rotate.x = 0;
-        rotate.z = 0;
-
-        transform.rotation = Quaternion.Slerp(transform.rotation, rotate, 12f);
-
-
+    private void Rotation()
+    {
+         var ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+         RaycastHit hit;
+    if (Physics.Raycast (ray, out hit)) {
+        lookTarget = hit.point;
+    }
+ 
+    transform.LookAt(lookTarget);
     }
 
     public void MoveWASD()
