@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RPGGame.Creature" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgACAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAACACIAAg=</HashCode>
+      <FileName>Creatures\Creature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGame.Enemy" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Creatures\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Player" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Creatures\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Place" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAYAE=</HashCode>
+      <FileName>Places\Place.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Portal" Collapsed="true">
+    <Position X="8.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Places\Portal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Weapon" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACIAAAAiAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Weapons.PlayerWeapon" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\PlayerWeapon.cs</FileName>
+      <NewMemberFileName>Weapons\AutomaticGun.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="RPGGame.IFightable" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IFightable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RPGGame.ILivable" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ILivable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RPGGame.IMovable" Collapsed="true">
+    <Position X="11.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="RPGGame.Weapons.RangeOfWeapon" Collapsed="true">
+    <Position X="11.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAIAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\RangeOfWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
