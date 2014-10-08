@@ -6,9 +6,18 @@ namespace RPGGame
 
     public abstract class Weapon
     {
+        // 
+        private float weaponId;
+        
         private WeaponType name;
         private float damage;
+        
+        // Will be range - force
         private float range;
+
+        // time to wait before next shooting
+        private float delay;
+        
 
         public Weapon(WeaponType name, float damage, float range) 
         {

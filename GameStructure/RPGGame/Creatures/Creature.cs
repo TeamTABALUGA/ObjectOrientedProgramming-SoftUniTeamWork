@@ -14,6 +14,8 @@ namespace RPGGame
         private float health;
         // resistance increases with the experiece of the player
         private float resistance;
+        private float speed;
+        private float exPoints;
 
         public Creature(float resistance)
         {
