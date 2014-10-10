@@ -1,21 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RPGGame
+﻿namespace RPGGame
 {
-    public abstract class Creature : IMovable, ILivable
+    using System;
+
+    public abstract class Creature :IMovable, ILivable
     {
         private const int StartHealth = 100;
         private const int Dead = 0;
         private float health;
         // resistance increases with the experiece of the player
         private float resistance;
-        private float speed;
-        private float exPoints;
 
         public Creature(float resistance)
         {
@@ -54,7 +47,6 @@ namespace RPGGame
                 return true;
             }
         }
-
 
         public abstract void MakeDamage(Creature creature);
     }

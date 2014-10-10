@@ -3,8 +3,8 @@ C:\Users\Emo\Desktop\-OOP-TeamTabalugaProject.git\trunk\Jasen\TeamWorkOOP\RPGGam
 C:\Users\Emo\Desktop\-OOP-TeamTabalugaProject.git\trunk\Jasen\TeamWorkOOP\RPGGame\bin\Debug\RPGGame.exe
 C:\Users\Emo\Desktop\-OOP-TeamTabalugaProject.git\trunk\Jasen\TeamWorkOOP\RPGGame\obj\Debug\RPGGame.exe
 C:\Users\Emo\Desktop\-OOP-TeamTabalugaProject.git\trunk\Jasen\TeamWorkOOP\RPGGame\obj\Debug\RPGGame.csprojResolveAssemblyReference.cache
-C:\Users\minkas_g_d\-OOP-TeamTabalugaProject\GameStructure\RPGGame\obj\Debug\RPGGame.exe
-C:\Users\minkas_g_d\-OOP-TeamTabalugaProject\GameStructure\RPGGame\obj\Debug\RPGGame.pdb
-C:\Users\minkas_g_d\-OOP-TeamTabalugaProject\GameStructure\RPGGame\bin\Debug\RPGGame.exe
-C:\Users\minkas_g_d\-OOP-TeamTabalugaProject\GameStructure\RPGGame\bin\Debug\RPGGame.pdb
-C:\Users\minkas_g_d\-OOP-TeamTabalugaProject\GameStructure\RPGGame\obj\Debug\RPGGame.csprojResolveAssemblyReference.cache
+C:\Users\Emo\Desktop\TeamWorkOOP\RPGGame\obj\Debug\RPGGame.exe
+C:\Users\Emo\Desktop\TeamWorkOOP\RPGGame\obj\Debug\RPGGame.pdb
+C:\Users\Emo\Desktop\TeamWorkOOP\RPGGame\bin\Debug\RPGGame.exe
+C:\Users\Emo\Desktop\TeamWorkOOP\RPGGame\bin\Debug\RPGGame.pdb
+C:\Users\Emo\Desktop\TeamWorkOOP\RPGGame\obj\Debug\RPGGame.csprojResolveAssemblyReference.cache

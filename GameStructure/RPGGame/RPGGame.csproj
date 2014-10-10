@@ -42,9 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creatures\EnemyDifficult.cs" />
     <Compile Include="Interfaces\IFightable.cs" />
     <Compile Include="Creatures\Creature.cs" />
     <Compile Include="Creatures\Enemy.cs" />
+    <Compile Include="Interfaces\IPosition.cs" />
+    <Compile Include="Interfaces\IRateable.cs" />
+    <Compile Include="Places\House.cs" />
     <Compile Include="Testing.cs" />
     <Compile Include="Weapons\EnemyWeapon.cs" />
     <Compile Include="Interfaces\ILivable.cs" />
