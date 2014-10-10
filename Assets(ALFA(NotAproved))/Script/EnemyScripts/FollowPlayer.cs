@@ -4,7 +4,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class Follow1 : MonoBehaviour {
+public class FollowPlayer : MonoBehaviour {
 	
 	Transform target;
 	Transform myTransform;
