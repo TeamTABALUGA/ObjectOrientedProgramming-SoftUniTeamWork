@@ -8,3 +8,8 @@ C:\Users\Emo\Desktop\TeamWorkOOP\RPGGame\obj\Debug\RPGGame.pdb
 C:\Users\Emo\Desktop\TeamWorkOOP\RPGGame\bin\Debug\RPGGame.exe
 C:\Users\Emo\Desktop\TeamWorkOOP\RPGGame\bin\Debug\RPGGame.pdb
 C:\Users\Emo\Desktop\TeamWorkOOP\RPGGame\obj\Debug\RPGGame.csprojResolveAssemblyReference.cache
+C:\Users\Emo\Desktop\GameStructure\RPGGame\obj\Debug\RPGGame.exe
+C:\Users\Emo\Desktop\GameStructure\RPGGame\obj\Debug\RPGGame.pdb
+C:\Users\Emo\Desktop\GameStructure\RPGGame\bin\Debug\RPGGame.exe
+C:\Users\Emo\Desktop\GameStructure\RPGGame\bin\Debug\RPGGame.pdb
+C:\Users\Emo\Desktop\GameStructure\RPGGame\obj\Debug\RPGGame.csprojResolveAssemblyReference.cache
