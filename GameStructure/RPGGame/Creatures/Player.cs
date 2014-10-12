@@ -1,26 +1,29 @@
-﻿namespace RPGGame
+﻿using RPGGame.Characteristics;
+using RPGGame.Interfaces;
+
+namespace RPGGame
 {
     using System;
     using System.Collections.Generic;
     using RPGGame.Weapons;
 
-    public class Player : Creature
+    public class Player : Experience
     {
         private int currentWeaponIndex;
         private List<PlayerWeapon> playerWeapons;
-        private float experience;
-        private float level;
+        private float resistance;
 
         //public int DamageResistance;
-        public Player(float resistance, List<Weapon> playerWeapons,float level, float experience = 0)
-            : base(resistance)
+        public Player(float resistance, List<Weapon> playerWeapons, float level)
+            : base()
         {
             //this.DamageResistance = damageResistance;
             this.PlayerWeapons = playerWeapons;
-            this.Experience = experience;
             this.Level = level;
+            this.CurrentExperience = 0;
+            this.ExperienceWhoUpLevels = 3000;
+            this.Level = 0;
         }
-
 
         public IList<Weapon> PlayerWeapons { get; set; }
 
@@ -30,42 +33,29 @@
             set { this.currentWeaponIndex = value; }
         }
 
-        public float Experience
+        public float Resistance
         {
-            get
-            {
-                return experience;
-            }
+            get { return this.resistance; }
+            set { this.resistance = value; }
+        }
 
-            set
+        public override void IncreaseExperience(IHealth creature, Creatures.EnemyDifficulty enemyDifficulty)
+        {
+            bool creatureIsDead = !creature.IsAlive(creature);
+            if (creatureIsDead)
             {
-                experience = value;
+                this.CurrentExperience += (float)enemyDifficulty;
+                UpdateLevel();
             }
         }
 
-        public float Level
+        public override void UpdateLevel()
         {
-            get
+            if (this.CurrentExperience >= this.ExperienceWhoUpLevels)
             {
-                return this.level;
-            }
-
-            set
-            {
-                bool isNegative = value < 0;
-                if(isNegative)
-                {
-                    throw new IndexOutOfRangeException("Level cannot be negative");
-                }
-
-                this.level = value;
+                this.Level++;
+                this.ExperienceWhoUpLevels = this.CurrentExperience * MULTIPLICATION_INDEX;
             }
         }
-
-        public override void MakeDamage(Creature creature)
-        {
-            creature.Health -= this.PlayerWeapons[this.CurrentWeaponIndex].Damage;
-        }
-
     }
 }

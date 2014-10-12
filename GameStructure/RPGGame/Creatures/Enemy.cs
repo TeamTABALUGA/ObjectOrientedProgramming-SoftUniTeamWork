@@ -1,17 +1,17 @@
-﻿using RPGGame.Creatures;
-
-namespace RPGGame
+﻿namespace RPGGame
 {
     using RPGGame.Weapons;
+    using RPGGame.Creatures;
+    using Characteristics;
+    using RPGGame.Interfaces;
 
-    public class Enemy : Creature
+    public class Enemy : HealthSystem
     {
         private EnemyWeapon enemyWeapon;
-        private EnemyDifficult difficult;
+        private EnemyDifficulty difficult;
         private float rangeEnemy;
 
-        public Enemy(float resistanse, float range, EnemyWeapon enemyWeapon, EnemyDifficult difficulty)
-            : base(resistanse)
+        public Enemy(float range, EnemyWeapon enemyWeapon, EnemyDifficulty difficulty)
         {
             this.EnemyWeapon = enemyWeapon;
             this.Difficult = difficulty;
@@ -20,7 +20,7 @@ namespace RPGGame
 
         public EnemyWeapon EnemyWeapon { get; private set; }
 
-        public EnemyDifficult Difficult
+        public EnemyDifficulty Difficult
         {
             get { return this.difficult; }
             set { this.difficult = value; }
@@ -30,11 +30,6 @@ namespace RPGGame
         {
             get { return this.rangeEnemy; }
             set { this.rangeEnemy = value; }
-        }
-
-        public override void MakeDamage(Creature creature)
-        {
-            creature.Health -= this.EnemyWeapon.Damage;
         }
     }
 }

@@ -10,6 +10,6 @@ namespace RPGGame
         //void CreatureLiveStatus();
         //void DamageMade();
         //void CurrentDamageResistance();
-        void MakeDamage(Creature creature);
+        void MakeDamage();
     }
 }
