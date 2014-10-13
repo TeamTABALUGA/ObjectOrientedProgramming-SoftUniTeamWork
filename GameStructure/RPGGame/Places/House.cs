@@ -4,7 +4,8 @@
 
     public class House : Place, IPosition
     {
-        public House(string name, float positionX, float positionY, float positionZ) : base(name, positionX, positionY, positionZ)
+        public House(string name, float positionX, float positionY, float positionZ)
+            : base(name, positionX, positionY, positionZ)
         {
         }
     }

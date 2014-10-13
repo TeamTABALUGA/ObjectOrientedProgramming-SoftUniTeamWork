@@ -5,5 +5,8 @@
     {
         float CurrentExperience { get; set; }
         void IncreaseExperience(IHealth creature, EnemyDifficulty enemyDifficulty);
+        void IncreaseHealthByLevel();
+        void UnlockWeaponIndex();
+
     }
 }

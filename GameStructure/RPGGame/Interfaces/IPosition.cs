@@ -2,8 +2,8 @@
 {
     public interface IPosition
     {
-        double X { get; set; }
-        double Y { get; set; }
-        double Z { get; set; }
+        double PositionX { get; set; }
+        double PositionY { get; set; }
+        double PositionZ { get; set; }
     }
 }

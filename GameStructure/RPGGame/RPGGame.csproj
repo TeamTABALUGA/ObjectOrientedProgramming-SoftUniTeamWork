@@ -55,7 +55,6 @@
     <Compile Include="Testing.cs" />
     <Compile Include="Weapons\EnemyWeapon.cs" />
     <Compile Include="Interfaces\ILivable.cs" />
-    <Compile Include="Interfaces\IMovable.cs" />
     <Compile Include="Places\Place.cs" />
     <Compile Include="Creatures\Player.cs" />
     <Compile Include="Places\Portal.cs" />

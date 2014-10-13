@@ -4,12 +4,18 @@ using RPGGame.Interfaces;
 
 namespace RPGGame.Characteristics
 {
-    public abstract class Experience : IExperience
+    public abstract class Experience : HealthSystem, IExperience
     {
         public const float MULTIPLICATION_INDEX = 1.6f;
         private float currentExperience;
         private float experienceWhoUpLevels;
         private float level;
+
+        public Experience(float level, float resistance)
+            : base(resistance)
+        {
+            this.Level = level;
+        }
 
         public float CurrentExperience
         {
@@ -20,7 +26,7 @@ namespace RPGGame.Characteristics
         public float ExperienceWhoUpLevels
         {
             get { return this.experienceWhoUpLevels; }
-            set {this. experienceWhoUpLevels = value; }
+            set { this.experienceWhoUpLevels = value; }
         }
 
         public float Level
@@ -46,5 +52,8 @@ namespace RPGGame.Characteristics
 
         public abstract void UpdateLevel();
 
+        public abstract void IncreaseHealthByLevel();
+
+        public abstract void UnlockWeaponIndex();
     }
 }

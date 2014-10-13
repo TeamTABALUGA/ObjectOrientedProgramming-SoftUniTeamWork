@@ -5,5 +5,6 @@
         float CurrentHealth { get; set; }
         bool IsAlive(IHealth creature);
         void DecreaseHealth(IHealth creature, Weapon weapon);
+        void FaithOfCreature();
     }
 }

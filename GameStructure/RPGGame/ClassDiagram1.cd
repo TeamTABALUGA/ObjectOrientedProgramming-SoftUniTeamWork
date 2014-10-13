@@ -27,7 +27,7 @@
   <Class Name="RPGGame.Place" Collapsed="true">
     <Position X="4" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAYAE=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Places\Place.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -43,16 +43,18 @@
   <Class Name="RPGGame.Enemy" Collapsed="true">
     <Position X="6.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAEAAAABAAAAAAAAAAAAAACAIAAAgCAAAAA=</HashCode>
+      <HashCode>ACAAAAAAAAEAAAAhAAAAAAAAAAAAAACAIAAAgCAAAAA=</HashCode>
       <FileName>Creatures\Enemy.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="RPGGame.Player" Collapsed="true">
     <Position X="2.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAwAgAAAAIAAAAAAAAQAAAAAAAAEAAAAAQAAAAAIAAA=</HashCode>
+      <HashCode>ACQAgAAEAIAAAAAgAAQAAAAAAAAEAAAAAQAAAAABAAA=</HashCode>
       <FileName>Creatures\Player.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="RPGGame.Places.House" Collapsed="true">
     <Position X="5" Y="5.75" Width="1.5" />
@@ -65,7 +67,7 @@
   <Class Name="RPGGame.Characteristics.Experience" Collapsed="true">
     <Position X="4.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAgAAgAIAEMAAABAQAAAAAAAEA=</HashCode>
+      <HashCode>AAAAAAAEAAAAAAAAAAAgAAgAIAEMAAABAQAAAAABAEA=</HashCode>
       <FileName>Characteristics\Experience.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -73,7 +75,7 @@
   <Class Name="RPGGame.Characteristics.HealthSystem" Collapsed="true">
     <Position X="5.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAAAAAAAAAAAAAAAAAAAAQAAEAkAAAAAAAAEAAAAAA=</HashCode>
+      <HashCode>ASgAAAAAAAAAAAAAAAAAAAQAAEAkABAAAAAAEAAIAAA=</HashCode>
       <FileName>Characteristics\HealthSystem.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -92,31 +94,24 @@
       <FileName>Interfaces\ILivable.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="RPGGame.IMovable" Collapsed="true">
-    <Position X="14.25" Y="1.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Interfaces\IMovable.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
   <Interface Name="RPGGame.Interfaces.IExperience" Collapsed="true">
     <Position X="12.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAgAAAAEAAAAAAAAAAABAAA=</HashCode>
       <FileName>Interfaces\IExperience.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="RPGGame.Interfaces.IHealth" Collapsed="true">
     <Position X="16" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAAAAAAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>ASAAAAAAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IHealth.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="RPGGame.Interfaces.IPosition" Collapsed="true">
     <Position X="16" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IPosition.cs</FileName>
     </TypeIdentifier>
   </Interface>
