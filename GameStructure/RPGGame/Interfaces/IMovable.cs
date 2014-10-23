@@ -1,6 +1,0 @@
-﻿namespace RPGGame
-{
-    interface IMovable
-    {
-    }
-}

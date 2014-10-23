@@ -1,9 +1,0 @@
-Create Abstract Classes.
-
-	Creatures
-
-		Player
-		Zomby
-	
-		
-Create 
