@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PlayAnimation" Collapsed="true">
+    <Position X="16" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAIAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Monsters\DownloadedAssets\FT_CaveWorm\Script\PlayAnimation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubstanceGUI" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACACAAAAAEAIAAACAAAAICAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Monsters\DownloadedAssets\FT_CaveWorm\Script\SubstanceGUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bulbler" Collapsed="true">
+    <Position X="5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAACAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Monsters\MonsterPrefabs\BulbMonster\Bulbler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterControll" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAEAAAECAAgAAAAAAAAAAAAAJAAIAAQAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Monsters\MonsterPrefabs\BulbMonster\MonsterControll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MutantBase" Collapsed="true">
+    <Position X="3.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQABGACoCIARSAgAIAAIAAAAAApgBAAIABBIAEEAwEg=</HashCode>
+      <FileName>Assets\Monsters\MonsterPrefabs\MutantBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Zombie" Collapsed="true">
+    <Position X="2" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAACAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Monsters\MonsterPrefabs\TyrantZombie\Zombie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombieControl" Collapsed="true">
+    <Position X="14.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAEAAAECAAgAAAAAAQAAAAAAIAAIAAQAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Monsters\MonsterPrefabs\TyrantZombie\ZombieControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gate" Collapsed="true">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Monsters\Portal\Gate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GateBase" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAACSAAAAAAgCAAAAAgAAAAIEACQAAAIAEAAQA=</HashCode>
+      <FileName>Assets\Monsters\Portal\GateBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FollowPlayer" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAECAAAAAAIAAAAAAAgAAAAIAAQABAAAAAAEA=</HashCode>
+      <FileName>Assets\Monsters\Scripts\FollowPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Follow1" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAECAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\Follow1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthSystem" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAQgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAg=</HashCode>
+      <FileName>Assets\Scripts\Enemy\HealthSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FirstPlayer" Collapsed="true">
+    <Position X="7" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAACAAQgAAAAAAAAAAAAABAAAABAAAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\FirstPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="7" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAACAAEAAAABIgEAAAIqAADAAkAAQABAAIAEEEAABg=</HashCode>
+      <FileName>Assets\Scripts\Player\Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAECAAAAAgAAEAAAAAEAAAAMAAAABQAIAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Handgun" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\Handgun\Handgun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HandGunBullet" Collapsed="true">
+    <Position X="4.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\Handgun\HandGunBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MashineGun" Collapsed="true">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\MashineGun\MashineGun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MashineGunBullet" Collapsed="true">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\MashineGun\MashineGunBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shotgun" Collapsed="true">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\Shotgun\Shotgun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShotgunShells" Collapsed="true">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\Shotgun\ShotgunShells.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weapon" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAAAAAAAABEAAgAAAAAAgAAAAAEAADAQAAAAogEA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CaveWorm" Collapsed="true">
+    <Position X="3.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAgAAAAAAAAAIAAIIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Monsters\MonsterPrefabs\CaveWorm\CaveWorm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IMutant" Collapsed="true">
+    <Position X="14.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\Monsters\MonsterPrefabs\IMutant.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IPortal" Collapsed="true">
+    <Position X="16" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAACAAAAAgAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Monsters\Portal\IPortal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ICreature" Collapsed="true">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAACAAAAAAAAAgAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\ICreature.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
